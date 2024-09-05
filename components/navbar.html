@@ -12,7 +12,7 @@
     <style data-tag="default-style-sheet">
       html {
         font-family: Jost;
-        font-size: 16px;
+        font-size: 17px;
       }
 
       body {
@@ -59,6 +59,16 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
 
@@ -72,7 +82,7 @@
           } else {
             loadScript();
           }
-        } else {
+        } else {quantityInput
           loadScript();
         }
         function loadScript() {
@@ -90,7 +100,7 @@
           ShopifyBuy.UI.onReady(client).then(function (ui) {
             ui.createComponent('product', {
               id: '9556992917816',
-              node: document.getElementById('product-component-1725391235495'),
+              node: document.getElementById('product-component-1725396853057'),
               moneyFormat: '%24%7B%7Bamount%7D%7D',
               options: {
         "product": {
@@ -103,25 +113,25 @@
               }
             },
             "button": {
-              "font-family": "Roboto, sans-serif",
-              "font-size": "17px",
-              "padding-top": "16.5px",
-              "padding-bottom": "16.5px",
+              "font-family": "Gill Sans, sans-serif",
+              "font-size": "18px",
+              "padding-top": "17px",
+              "padding-bottom": "17px",
               ":hover": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
-              "background-color": "#d18f7c",
+              "background-color": "#b3675d",
               ":focus": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
               "border-radius": "0px",
-              "padding-left": "32px",
-              "padding-right": "32px"
+              "padding-left": "50px",
+              "padding-right": "50px"
             },
             "quantityInput": {
-              "font-size": "17px",
-              "padding-top": "16.5px",
-              "padding-bottom": "16.5px"
+              "font-size": "18px",
+              "padding-top": "17px",
+              "padding-bottom": "17px"
             }
           },
           "buttonDestination": "checkout",
@@ -133,11 +143,8 @@
             "price": false
           },
           "text": {
-            "button": "Buy now"
-          },
-          "googleFonts": [
-            "Roboto"
-          ]
+            "button": "Buy Now"
+          }
         },
         "productSet": {
           "styles": {
@@ -164,30 +171,27 @@
               }
             },
             "button": {
-              "font-family": "Roboto, sans-serif",
-              "font-size": "17px",
-              "padding-top": "16.5px",
-              "padding-bottom": "16.5px",
+              "font-family": "Gill Sans, sans-serif",
+              "font-size": "18px",
+              "padding-top": "17px",
+              "padding-bottom": "17px",
               ":hover": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
-              "background-color": "#d18f7c",
+              "background-color": "#b3675d",
               ":focus": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
               "border-radius": "0px",
-              "padding-left": "32px",
-              "padding-right": "32px"
+              "padding-left": "50px",
+              "padding-right": "50px"
             },
             "quantityInput": {
-              "font-size": "17px",
-              "padding-top": "16.5px",
-              "padding-bottom": "16.5px"
+              "font-size": "18px",
+              "padding-top": "17px",
+              "padding-bottom": "17px"
             }
           },
-          "googleFonts": [
-            "Roboto"
-          ],
           "text": {
             "button": "Add to cart"
           }
@@ -196,16 +200,16 @@
         "cart": {
           "styles": {
             "button": {
-              "font-family": "Roboto, sans-serif",
-              "font-size": "17px",
-              "padding-top": "16.5px",
-              "padding-bottom": "16.5px",
+              "font-family": "Gill Sans, sans-serif",
+              "font-size": "18px",
+              "padding-top": "17px",
+              "padding-bottom": "17px",
               ":hover": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
-              "background-color": "#d18f7c",
+              "background-color": "#b3675d",
               ":focus": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
               "border-radius": "0px"
             }
@@ -214,30 +218,24 @@
             "total": "Subtotal",
             "button": "Checkout"
           },
-          "popup": false,
-          "googleFonts": [
-            "Roboto"
-          ]
+          "popup": false
         },
         "toggle": {
           "styles": {
             "toggle": {
-              "font-family": "Roboto, sans-serif",
-              "background-color": "#d18f7c",
+              "font-family": "Gill Sans, sans-serif",
+              "background-color": "#b3675d",
               ":hover": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
               ":focus": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               }
             },
             "count": {
-              "font-size": "17px"
+              "font-size": "18px"
             }
-          },
-          "googleFonts": [
-            "Roboto"
-          ]
+          }
         }
       },
             });
@@ -274,12 +272,12 @@
                 </a>
                 <a href="shop.html" class="navbar-text11">
                   <fragment class="navbar-fragment19">
-                    <span class="navbar-text28 navbar-link">SHOP</span>
+                    <span class="navbar-text28 navbar-link">BUY&nbsp; IT</span>
                   </fragment>
                 </a>
               </div>
             </div>
-            <a href="cart.html" class="navbar-navlink">
+            <a href="shop.html" class="navbar-navlink">
               <img
                 alt="iconsbxscart3271299"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjQnIGhlaWdodD0nMjQnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPHBhdGggZD0nTTIxLjgyMiA3LjQzMUMyMS42MzUgNy4xNjEgMjEuMzI4IDcgMjEgN0g3LjMzM0w2LjE3OSA0LjIzQzUuODY3IDMuNDgyIDUuMTQzIDMgNC4zMzMgM0gyVjVINC4zMzNMOS4wNzcgMTYuMzg1QzkuMjMyIDE2Ljc1NyA5LjU5NiAxNyAxMCAxN0gxOEMxOC40MTcgMTcgMTguNzkgMTYuNzQxIDE4LjkzNyAxNi4zNTJMMjEuOTM3IDguMzUyQzIyLjA1MiA4LjA0NCAyMi4wMDkgNy43IDIxLjgyMiA3LjQzMVonIGZpbGw9JyMxNjE2MTYnLz4KPHBhdGggZD0nTTEwLjUgMjFDMTEuMzI4NCAyMSAxMiAyMC4zMjg0IDEyIDE5LjVDMTIgMTguNjcxNiAxMS4zMjg0IDE4IDEwLjUgMThDOS42NzE1NyAxOCA5IDE4LjY3MTYgOSAxOS41QzkgMjAuMzI4NCA5LjY3MTU3IDIxIDEwLjUgMjFaJyBmaWxsPScjMTYxNjE2Jy8+CjxwYXRoIGQ9J00xNy41IDIxQzE4LjMyODQgMjEgMTkgMjAuMzI4NCAxOSAxOS41QzE5IDE4LjY3MTYgMTguMzI4NCAxOCAxNy41IDE4QzE2LjY3MTYgMTggMTYgMTguNjcxNiAxNiAxOS41QzE2IDIwLjMyODQgMTYuNjcxNiAyMSAxNy41IDIxWicgZmlsbD0nIzE2MTYxNicvPgo8L3N2Zz4K"

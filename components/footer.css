@@ -4,12 +4,8 @@
   display: flex;
   position: relative;
   align-items: center;
-  border-color: var(--dl-color-pallet-rust);
-  border-style: solid;
-  border-width: 0px;
   flex-direction: column;
-  background-color: var(--dl-color-pallet-rust);
-  border-top-width: 1px;
+  background-color: var(--dl-color-gray-500);
 }
 .footer-footer2 {
   display: flex;

@@ -13,7 +13,7 @@
     <style data-tag="default-style-sheet">
       html {
         font-family: Jost;
-        font-size: 16px;
+        font-size: 17px;
       }
 
       body {
@@ -60,6 +60,16 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
 
@@ -73,7 +83,7 @@
           } else {
             loadScript();
           }
-        } else {
+        } else {quantityInput
           loadScript();
         }
         function loadScript() {
@@ -91,7 +101,7 @@
           ShopifyBuy.UI.onReady(client).then(function (ui) {
             ui.createComponent('product', {
               id: '9556992917816',
-              node: document.getElementById('product-component-1725391235495'),
+              node: document.getElementById('product-component-1725396853057'),
               moneyFormat: '%24%7B%7Bamount%7D%7D',
               options: {
         "product": {
@@ -104,25 +114,25 @@
               }
             },
             "button": {
-              "font-family": "Roboto, sans-serif",
-              "font-size": "17px",
-              "padding-top": "16.5px",
-              "padding-bottom": "16.5px",
+              "font-family": "Gill Sans, sans-serif",
+              "font-size": "18px",
+              "padding-top": "17px",
+              "padding-bottom": "17px",
               ":hover": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
-              "background-color": "#d18f7c",
+              "background-color": "#b3675d",
               ":focus": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
               "border-radius": "0px",
-              "padding-left": "32px",
-              "padding-right": "32px"
+              "padding-left": "50px",
+              "padding-right": "50px"
             },
             "quantityInput": {
-              "font-size": "17px",
-              "padding-top": "16.5px",
-              "padding-bottom": "16.5px"
+              "font-size": "18px",
+              "padding-top": "17px",
+              "padding-bottom": "17px"
             }
           },
           "buttonDestination": "checkout",
@@ -134,11 +144,8 @@
             "price": false
           },
           "text": {
-            "button": "Buy now"
-          },
-          "googleFonts": [
-            "Roboto"
-          ]
+            "button": "Buy Now"
+          }
         },
         "productSet": {
           "styles": {
@@ -165,30 +172,27 @@
               }
             },
             "button": {
-              "font-family": "Roboto, sans-serif",
-              "font-size": "17px",
-              "padding-top": "16.5px",
-              "padding-bottom": "16.5px",
+              "font-family": "Gill Sans, sans-serif",
+              "font-size": "18px",
+              "padding-top": "17px",
+              "padding-bottom": "17px",
               ":hover": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
-              "background-color": "#d18f7c",
+              "background-color": "#b3675d",
               ":focus": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
               "border-radius": "0px",
-              "padding-left": "32px",
-              "padding-right": "32px"
+              "padding-left": "50px",
+              "padding-right": "50px"
             },
             "quantityInput": {
-              "font-size": "17px",
-              "padding-top": "16.5px",
-              "padding-bottom": "16.5px"
+              "font-size": "18px",
+              "padding-top": "17px",
+              "padding-bottom": "17px"
             }
           },
-          "googleFonts": [
-            "Roboto"
-          ],
           "text": {
             "button": "Add to cart"
           }
@@ -197,16 +201,16 @@
         "cart": {
           "styles": {
             "button": {
-              "font-family": "Roboto, sans-serif",
-              "font-size": "17px",
-              "padding-top": "16.5px",
-              "padding-bottom": "16.5px",
+              "font-family": "Gill Sans, sans-serif",
+              "font-size": "18px",
+              "padding-top": "17px",
+              "padding-bottom": "17px",
               ":hover": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
-              "background-color": "#d18f7c",
+              "background-color": "#b3675d",
               ":focus": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
               "border-radius": "0px"
             }
@@ -215,30 +219,24 @@
             "total": "Subtotal",
             "button": "Checkout"
           },
-          "popup": false,
-          "googleFonts": [
-            "Roboto"
-          ]
+          "popup": false
         },
         "toggle": {
           "styles": {
             "toggle": {
-              "font-family": "Roboto, sans-serif",
-              "background-color": "#d18f7c",
+              "font-family": "Gill Sans, sans-serif",
+              "background-color": "#b3675d",
               ":hover": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               },
               ":focus": {
-                "background-color": "#bc8170"
+                "background-color": "#a15d54"
               }
             },
             "count": {
-              "font-size": "17px"
+              "font-size": "18px"
             }
-          },
-          "googleFonts": [
-            "Roboto"
-          ]
+          }
         }
       },
             });
@@ -282,12 +280,14 @@
                     </a>
                     <a href="shop.html" class="navbar-text11">
                       <fragment class="home-fragment11">
-                        <span class="home-text11 navbar-link">SHOP</span>
+                        <span class="home-text11 navbar-link">
+                          BUY&nbsp; IT
+                        </span>
                       </fragment>
                     </a>
                   </div>
                 </div>
-                <a href="cart.html" class="navbar-navlink">
+                <a href="shop.html" class="navbar-navlink">
                   <img
                     alt="iconsbxscart3271299"
                     src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjQnIGhlaWdodD0nMjQnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPHBhdGggZD0nTTIxLjgyMiA3LjQzMUMyMS42MzUgNy4xNjEgMjEuMzI4IDcgMjEgN0g3LjMzM0w2LjE3OSA0LjIzQzUuODY3IDMuNDgyIDUuMTQzIDMgNC4zMzMgM0gyVjVINC4zMzNMOS4wNzcgMTYuMzg1QzkuMjMyIDE2Ljc1NyA5LjU5NiAxNyAxMCAxN0gxOEMxOC40MTcgMTcgMTguNzkgMTYuNzQxIDE4LjkzNyAxNi4zNTJMMjEuOTM3IDguMzUyQzIyLjA1MiA4LjA0NCAyMi4wMDkgNy43IDIxLjgyMiA3LjQzMVonIGZpbGw9JyMxNjE2MTYnLz4KPHBhdGggZD0nTTEwLjUgMjFDMTEuMzI4NCAyMSAxMiAyMC4zMjg0IDEyIDE5LjVDMTIgMTguNjcxNiAxMS4zMjg0IDE4IDEwLjUgMThDOS42NzE1NyAxOCA5IDE4LjY3MTYgOSAxOS41QzkgMjAuMzI4NCA5LjY3MTU3IDIxIDEwLjUgMjFaJyBmaWxsPScjMTYxNjE2Jy8+CjxwYXRoIGQ9J00xNy41IDIxQzE4LjMyODQgMjEgMTkgMjAuMzI4NCAxOSAxOS41QzE5IDE4LjY3MTYgMTguMzI4NCAxOCAxNy41IDE4QzE2LjY3MTYgMTggMTYgMTguNjcxNiAxNiAxOS41QzE2IDIwLjMyODQgMTYuNjcxNiAyMSAxNy41IDIxWicgZmlsbD0nIzE2MTYxNicvPgo8L3N2Zz4K"
@@ -383,103 +383,90 @@
           </div>
         </navbar-wrapper>
         <div class="home-main">
-          <div class="home-hero1 section-container">
-            <div class="home-max-width1 max-width-container">
-              <div class="home-hero2">
-                <img
-                  alt="image"
-                  src="public/img/lp%20mockup-600h.png"
-                  class="home-image"
-                />
-                <div class="home-container2">
-                  <div class="home-info">
-                    <span class="home-text21">
-                      Made By creators, for creators
-                    </span>
-                  </div>
-                  <h1 class="home-text22">
-                    <span class="Heading-1">THE</span>
-                    <br class="Heading-1" />
-                    <span>LAUNCHPAD</span>
+          <div class="home-hero">
+            <img
+              alt="image"
+              src="public/img/lp%20mockup-600h.png"
+              class="home-image"
+            />
+            <div class="home-container2">
+              <div class="home-info"></div>
+              <h1 class="home-text21">
+                <span>Launch your next project</span>
+                <br />
+              </h1>
+              <span class="home-text24">
+                With the Launchpad project planner
+              </span>
+              <div class="home-btn-group">
+                <a href="shop.html" class="home-navlink1 button">
+                  <span>
+                    <span>Get it Now</span>
                     <br />
-                    <span class="Heading-1">JOURNAL</span>
-                    <br class="Heading-1" />
-                  </h1>
-                  <div class="home-btn-group">
-                    <a href="shop.html" class="home-navlink button">
-                      Take me to it
-                    </a>
-                  </div>
-                </div>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
-          <div class="section-container column">
-            <div class="max-width-container">
-              <section-heading-wrapper class="section-heading-wrapper">
-                <!--SectionHeading component-->
-                <div
-                  class="section-heading-section-heading section-heading"
-                ></div>
-              </section-heading-wrapper>
-            </div>
-            <div class="home-banner">
+          <div class="home-categories section-container column">
+            <div class="home-ground-up max-width-container">
               <div class="home-container3">
-                <h3 class="home-text29 Heading-3">MOBILLIO</h3>
-                <span class="home-text30">
-                  <span></span>
-                  <span>furniture</span>
+                <span class="home-text28 underlinedheading Heading-1">
+                  By Creators, for creators
+                </span>
+                <span>
+                  <span class="Content">
+                    Whether you're an author, designer, or&nbsp;
+                  </span>
+                  <span>entrepreneur</span>
+                  <span class="Content">
+                    , LaunchPad can bring your creation to life using an
+                    scientific, human-friendly approach that's easily adapted to
+                    any project type.&nbsp;
+                  </span>
                 </span>
               </div>
             </div>
-            <div class="home-container4 max-width-container">
+            <div class="home-blueprint-to-blastoff max-width-container">
+              <div class="home-container4">
+                <span class="home-text33 underlinedheading Heading-1">
+                  <span>From Blueprint</span>
+                  <span>to blastoff</span>
+                </span>
+                <span>
+                  <span class="Content">
+                    Don't know where to start? Turn your big ideas into
+                    achievable goals with LaunchPad's intuitive goal tracking
+                    system. Identify your project's key pieces, refine your
+                    ideas, and see your overall progress, all in one
+                    place.&nbsp;
+                  </span>
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="home-your-daily-dashboard max-width-container">
               <div class="home-container5">
-                <span class="home-text33">
-                  <span>
-                    Mobilio Stores Inc. are unique reseller of modern furnitors,
-                    designer-made,
-                  </span>
-                  <br />
-                  <span>home-decoration items, since 1997.</span>
-                  <br />
-                  <span>
-                    Our legacy guarantees exceptional product quality, unique
-                    designs and special prices for all of our product line-up.
-                    Lorem ipsum, consectetur adipiscing elit duis tristique
-                    sollicitudin nibh sit amet commodo nulla facilisi nullam
-                    vehicula ipsum a arcu cursus vitae congue. Consectetur
-                    adipiscing elit duis tristique sollicitudin nibh sit amet
-                    commodo nulla facilisi nullam vehicula ipsum a arcu cursus
-                    vitae congue
-                  </span>
+                <span class="home-text39 underlinedheading Heading-1">
+                  Your daily dashboard
                 </span>
-                <img
-                  alt="M3271427"
-                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTk5JyBoZWlnaHQ9JzIwMCcgdmlld0JveD0nMCAwIDE5OSAyMDAnIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+CjxwYXRoIGQ9J00zNy4zMDI2IDcxLjI5MjVMOTkuMzgyNyAxODIuMzEzTDE2MS40NjMgNzEuMjkyNUwxNzUuNjIyIDIwMEgxOTguNzY1TDE3NS42MjIgMEw5OS4zODI3IDEzNy45NTlMMjMuMTQzOSAwTDAgMjAwSDIzLjE0MzlMMzcuMzAyNiA3MS4yOTI1WicgZmlsbD0nYmxhY2snIGZpbGwtb3BhY2l0eT0nMC4wNicvPgo8L3N2Zz4K"
-                  class="home-svg"
-                />
-                <button class="button">Read more</button>
+                <span>
+                  <span class="Content">
+                    Track your goals and set priorities day-to-day and
+                    week-to-week. Adjust your process, conquer obstacles, and
+                    build positive habits, ensuring you grow as your project
+                    does.
+                  </span>
+                  <br />
+                </span>
               </div>
             </div>
-          </div>
-          <div class="section-container">
-            <div class="max-width-container">
-              <section-heading-wrapper-m8ow
-                class="section-heading-wrapper-m8ow"
-              >
-                <!--SectionHeading component-->
-                <div
-                  class="section-heading-section-heading1 section-heading"
-                ></div>
-              </section-heading-wrapper-m8ow>
-              <div class="home-gallery">
-                <div class="home-left"></div>
-                <div class="home-right">
-                  <div class="home-top"></div>
-                  <div class="home-bottom"></div>
-                </div>
-              </div>
-            </div>
+            <a href="shop.html" class="home-navlink2 button">
+              <span>
+                <span>Get it Now</span>
+                <br />
+              </span>
+            </a>
           </div>
         </div>
         <footer-wrapper class="footer-wrapper" rootclassname="footerundefined">
@@ -498,7 +485,7 @@
                   </svg>
                   <span>
                     <fragment class="home-fragment20">
-                      <span class="home-text39">
+                      <span class="home-text46">
                         <span>info@launchpadjournal.com</span>
                         <br />
                       </span>
@@ -508,7 +495,7 @@
               </div>
               <span>
                 <fragment class="home-fragment21">
-                  <span class="home-text42">©2024 Rocket Pals LLC</span>
+                  <span class="home-text49">©2024 Rocket Pals LLC</span>
                 </fragment>
               </span>
             </footer>

@@ -44,7 +44,7 @@
   justify-content: flex-start;
 }
 .navbar-right {
-  width: 142px;
+  width: 157px;
   display: flex;
   grid-gap: 45px;
   position: relative;
@@ -60,6 +60,7 @@
 .navbar-image {
   width: 24px;
   height: 24px;
+  display: none;
   position: relative;
   box-sizing: border-box;
   margin-top: 0 24px 0 0;
@@ -305,12 +306,8 @@
   display: flex;
   position: relative;
   align-items: center;
-  border-color: var(--dl-color-pallet-rust);
-  border-style: solid;
-  border-width: 0px;
   flex-direction: column;
-  background-color: var(--dl-color-pallet-rust);
-  border-top-width: 1px;
+  background-color: var(--dl-color-gray-500);
 }
 .footer-footer2 {
   display: flex;

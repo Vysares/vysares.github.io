@@ -34,7 +34,7 @@
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
   --dl-space-space-unit: 16px;
-  --dl-color-pallet-rust: #b3675dff;
+  --dl-color-pallet-rust: #d8877eff;
   --dl-size-size-xxlarge: 288px;
   --dl-color-gray-black50: #00000080;
   --dl-color-gray-black60: #00000099;
@@ -89,7 +89,7 @@
   text-decoration: none;
 }
 .button:hover {
-  color: var(--dl-color-pallet-red);
+  color: #ff7072;
   border-color: var(--dl-color-pallet-red);
   background-color: var(--dl-color-gray-whiteeee);
 }
@@ -572,6 +572,11 @@
   transform: scaleX(1);
 }
 
+.underlinedheading {
+  border-color: var(--dl-color-pallet-rust);
+  margin-bottom: var(--dl-space-space-unit);
+  border-bottom-width: 1;
+}
 .Heading-3 {
   font-size: 24px;
   font-style: normal;
@@ -583,7 +588,7 @@
   text-decoration: none;
 }
 .Content {
-  font-size: 16px;
+  font-size: 17px;
   font-family: Jost;
   font-weight: 400;
   letter-spacing: 0.02;
@@ -591,7 +596,7 @@
   text-decoration: none;
 }
 .Heading-1 {
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Zain-Bold";
   font-weight: 500;
   line-height: 47px;
